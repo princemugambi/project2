@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+				<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<title>Coding Academy</title>
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+	<section id="header">
+		<nav class="fixed-top">
+			<a href="index.html" id="logo" class="text-warning">Our_LOGO</a>
+			<div id="links">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li>
+						<a href="#">HOME</a>
+					</li>
+						<li>
+						<a href="#">ABOUT US</a>
+					</li>
+						<li>
+						<a href="#">Our Solutions</a>
+					</li>
+						<li>
+						<a href="#">Contact Us</a>
+					</li>
+					
+
+				</ul>
+				
+			</div>
+			<i class="fa fa-bars" onclick="displayMenu()"></i>
+		</nav>
+
+		<div class="banner">
+			<h1><img src="love.jpg" id="myImg"> <span class="auto-type text-warning"></span></h1>
+			<h1><span class="animat">Prince</span> Software <span class="text-warning">Academy</span></h1>
+			<p class="py-2 lead">Become a Full-Stack Developer by learning frontend and backend<br> languages and frameworks with us.</p>
+			<!--<a href="#" class="enroll-btn" data-bs-toggle="modal" data-bs-target="#enroll">Enroll now</a>-->
+			<button class="enroll-btn" data-bs-toggle="modal" data-bs-target="#enroll">Enroll now</button>
+			
+		</div>
+		
+	</section>
+	
+
+	<!-----------------COURSES SECTION-------------------------->
+
+	<section id="courses">
+		<div class="container">
+			<h1 class="text-center mb-5">COURSES</h1>
+			<div class="row">
+				<div class="col-md-6 course-box">
+					<p class="lead">Courses Offered</p>
+					<ul>
+						<li>Software Development</li>
+						<li>Web Design and Development</li>
+						<li>Programming</li>
+						<li>Networking and Wireless</li>
+					</ul>
+					
+				</div>
+					<div class="col-md-6 course-box text-center">
+					<img src="image2.png" class="img-fluid">
+					
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+
+	</section>
+	<!----------Accordion------------------------>
+	<section id="accordion" class="p-5">
+		<div class="container">
+			<h3 class="text-center mb-4">Our Modules</h3>
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Introduction-HTML and CSS
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Students master the basic building blocks of how the web is rendered and become fluent in the language that makes the web beautiful.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Front-End Development
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">JavaScript powers the user experience of the web. Students learn the basics of JavaScript syntax, its functional architecture, and dierent approaches to the object model.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Back-End Development
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">You’ll gain a thorough understanding of back end development basics, while learning a new language, PHP.</div>
+    </div>
+  </div>
+  <!-----------------new trial---------------------------->
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingfour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+        Final Project
+      </button>
+    </h2>
+    <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">The program completes with a large-scale group project that will be guided by your technical instructor. You’ll receive plenty of instructor feedback along the way while diving deep into various advanced technologies needed to bring your concepts to life.</div>
+    </div>
+  </div>
+</div>
+			
+		</div>
+		
+	</section>
+	<!-----------------SECTION ONLINE TRAINING-------------------->
+	<section id="training" class="p-5">
+		<div class="container text-center">
+			<h1 class="text-center">ONLINE CLASSES</h1>
+			<div class="row align-items-center justify-content-between">
+				<div class="col-md-6 text-center training-box training-box1">
+					<img src="image6.png" class="img-fluid pb-3">
+					<p id="pip"><b>React-Js</b></p>
+					
+				</div>
+				<div class="col-md-6 text-center training-box">
+					<p class="lead pt-5">Apply Today</p>
+					<p class="p-2">Acquire the relevant tech-skills from our industry leading<br> curriculum and online instructors.
+					Course includes HTML,CSS,JavaScript,React,PHP,SQL and Bootstrap5.</p>
+					
+				</div>
+				
+			</div>
+			<button class="btn btn-primary" type="button">Apply Today</button>
+			
+		</div>
+		
+	</section>
+	<!-----------------------Instructors Section------------------------>
+	<section id="instructors" class="p-5">
+		<div class="container">
+			<h1 class="text-center">Our Instructors</h1>
+			<p class="lead text-center mb-5 text-dark">All our instructors have 5+ years experience</p>
+			<div class="row g-3">
+				<div class="col-md-4">
+					<div class="card bg-light card-box">
+					<div class="card-body text-center">
+						<div class="colorama">
+						<img src="person4.png" class="rounded-circle mb-3 w-50 pb-2">
+						<h3 class="card-title mb-3">Bonface</h3>
+						<p class="card-text">Front-End Developer</p>
+						<a href="#"><i class="fa fa-twitter text-dark mx-1"></i></a>
+						<a href="#"><i class="fa fa-facebook text-dark mx-1"></i></a>
+						<a href="#"><i class="fa fa-whatsapp text-dark mx-1"></i></a>
+						<a href="#"><i class="fa fa-linkedin text-dark mx-1"></i></a>
+						<!---TESTING-------CODE-------->
+						
+							<h3>Javascript</h3>
+							
+						</div>
+						
+					</div>
+				</div>
+					
+				</div>
+					<div class="col-md-4">
+					<div class="card bg-light card-box">
+					<div class="card-body text-center">
+						<div class="colorama2">
+						<img src="person2.png" class="rounded-circle mb-3 w-50">
+						<h3 class="card-title mb-3">Dennis</h3>
+						<p class="card-text">Back-End Developer</p>
+						<a href="#"><i class="fa fa-twitter text-dark mx-1"></i></a>
+						<a href="#"><i class="fa fa-facebook text-dark mx-1"></i></a>
+						<a href="#"><i class="fa fa-whatsapp text-dark mx-1"></i></a>
+						<a href="#"><i class="fa fa-linkedin text-dark mx-1"></i></a>
+						<h3>Python</h3>
+					</div>
+					
+					</div>
+				</div>
+					
+				</div>
+					<div class="col-md-4">
+					<div class="card bg-light card-box">
+					<div class="card-body text-center">
+						<div class="colorama3">
+						
+						<img src="person3.jpg" class="rounded-circle mb-3 w-50">
+						<h3 class="card-title mb-3">Katherine</h3>
+						<p class="card-text">Full-Stack Developer</p>
+						<a href="#"><i class="fa fa-twitter text-dark mx-1"></i></a>
+						<a href="#"><i class="fa fa-facebook text-dark mx-1"></i></a>
+						<a href="#"><i class="fa fa-whatsapp text-dark mx-1"></i></a>
+						<a href="#"><i class="fa fa-linkedin text-dark mx-1"></i></a>
+						<h3>Java</h3>
+					</div>
+						
+					</div>
+
+				</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</section>
+	<!---------------------COUNTER SECTION--------------------------->
+	<section class="text-white p-5 bg-dark" id="counter-sec">
+		<div class="container center" id="counter-glass">
+			<h3 class="text-center">Our History</h3>
+			<div class="row text-center g-1">
+				<div class="col-md-4 counter-box">
+					<div class="image-box"><i class="fa fa-trophy"></i></div>
+					<p class="counter text-warning">28</p>
+					<p class="text-warning">Awards</p>
+					
+				</div>
+				<div class="col-md-4 counter-box">
+					<div class="image-box"><i class="fa fa-users"></i></div>
+					<p class="counter text-warning">897</p>
+					<p class="text-warning">Alumni</p>
+					
+				</div>
+				<div class="col-md-4 counter-box">
+					<div class="image-box"><i class="fa fa-cogs"></i></div>
+					<p class="counter text-warning">597</p>
+					<p class="text-warning">Skilled Experts</p>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</section>
+	<!--------------CARD FLIP AND SLIDER SECTION---------------------------->
+	<section id="flip-slider" class="p-4">
+		<div class="container">
+			<h3 class="text-center my-3">Chat With Our Team</h3>
+			<div class="row align-items-center justify-content-between">
+				<div class="col-md-6">
+					<div class="card1">
+						<div class="inner-card">
+							<div class="front-side bg-secondary">
+								<p class="pt-5 lead">Find us on social media</p>
+								<i class="fa fa-arrow-right i-con" id="front-icon"></i>
+							</div>
+							<div class="back-side">
+								<h4 class="text-secondary">Follow us on</h4>
+								<div class="social-icons">
+									<i class="fa fa-facebook"></i>
+										<i class="fa fa-twitter"></i>
+											<i class="fa fa-whatsapp"></i>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="col-md-6 slider-col text-center">
+					<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="javascript2.png"></div>
+    <div class="swiper-slide"><img src="java.png"></div>
+    <div class="swiper-slide"><img src="php.jpg"></div>
+    
+  </div>
+  <!-- pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+ 
+</div>
+
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+
+	</section>
+	<!-----------FOOTER SECTION------------------->
+	<section id="footer">
+		<div class="container">
+			<div class="row g-5">
+				<div class="col-md-4 text-center">
+					<h3 class="mb-3">Learn More</h3>
+					<p class="lead">Subscribe our youtube channel to watch more videos on website
+					 development,Web app and graphics design.</p>
+					
+				</div>
+					<div class="col-md-4 text-center">
+					<h3 class="mb-4">Our Contact</h3>
+					<p class="lead"><i class="fa fa-map-marker"></i>kimathi street</p>
+					<p class="lead grab-p2"><i class="fa fa-phone"></i>+254700033356</p>
+					<p class="lead grab-p3"><i class="fa fa-envelope"></i>pri@hotmail.com</p>
+					
+				</div>
+					<div class="col-md-4 text-center">
+					<h3 class="mb-3">Subscribe Newsletter</h3>
+					<input type="email" placeholder="your email" required="" class="form-control">
+					<button class="btn btn-outline-light">subscribe</button>
+					
+					
+				</div>
+				
+			</div>
+			<hr>
+			<p class="copyright">Copyright &copy; Prince 2024 All rights Reserved</p>
+			
+		</div>
+
+		
+	</section>
+
+
+	<!----------SCROLL UP BUTTON------------------>
+
+	<!----------------MODAL---------------------------------->
+      <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade p-3" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="enrollLabel"><span class="text-center">Enrollment Form</span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Fill out the form and we will get back to you soon</p>
+        <div class="mb-3">
+        	<label for="first-name" class="col-form-label">
+        	First Name	
+        	</label>
+        	<input type="text" class="form-control" id="first-name">
+        	
+        </div>
+        <div class="mb-3">
+        	<label for="last-name" class="col-form-label">
+        	Last Name	
+        	</label>
+        	<input type="text" class="form-control" id="last-name">
+        	
+        </div><div class="mb-3">
+        	<label for="phone" class="col-form-label">
+        	Phone No	
+        	</label>
+        	<input type="text" class="form-control" id="phone">
+        	
+        </div>
+        <div class="mb-3">
+        	<label for="email" class="col-form-label">
+        	Email 	
+        	</label>
+        	<input type="email" class="form-control" id="email">
+        	
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<a href="#" id="back-to-top-btn"><i class="fa fa-arrow-up"></i></a>
+	
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+	let typed = new Typed(".auto-type", {
+		strings: ["JavaScript","PHP","Bootstrap5"],
+		typeSpeed: 150,
+		backSpeed: 150,
+		loop: true
+	});
+</script>
+
+<script>
+		let links = document.getElementById("links");
+
+		function hideMenu(){
+			links.style.right = "-200px";
+		}
+		function displayMenu(){
+			links.style.right = "0px";
+		}
+	
+
+
+
+	</script>
+	<!---COUNTER JQUERY----------------->
+	<script src="jquery.counterup.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script>
+		jQuery(document).ready(function( $ )
+		{
+			$('.counter').counterUp({
+		
+               delay: 10,
+               time: 1000
+               });
+
+		   });
+
+
+	</script>
+
+
+	<!--SWIPER JS--------------------->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script>
+		const swiper = new Swiper('.swiper', {
+       autoplay: {
+       	delay: 2000,
+       	disableOnInteraction: false,
+       },
+  
+  loop: true,
+
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+ 
+});
+	</script>
+
+
+</body>
+</html>
